@@ -6,5 +6,5 @@ def test_binary_search_guesses():
     assert guesses(100, 1, 100) == 100
     assert guesses(1, 1, 100) == 1
     assert guesses(101, 1, 100) == -1
-    assert guesses(150, 1, 100) == 150
-    assert guesses(150, 1, 100) == 200
+    assert guesses(150, 1, 100) == -1
+    assert guesses(1, -50, 50) == 50
