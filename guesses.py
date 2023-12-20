@@ -1,7 +1,5 @@
 def guesses(target, min, max):
-    iteractions = 0
-    left = min
-    right = max
+    left, right = min, max
     while left <= right:
         mid = left + (right - left) // 2
         if mid == target:
@@ -10,5 +8,4 @@ def guesses(target, min, max):
             left = mid + 1
         else:
             right = mid - 1
-        iteractions += 1
     return -1
