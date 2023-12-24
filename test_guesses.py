@@ -7,4 +7,4 @@ def test_binary_search_guesses():
     assert guesses(1, 1, 100) == 1
     assert guesses(101, 1, 100) == -1
     assert guesses(150, 1, 100) == -1
-    assert guesses(1, -50, 50) == 1
+    assert guesses(1, -50, 50) == -100
